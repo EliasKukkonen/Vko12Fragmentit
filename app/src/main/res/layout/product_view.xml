@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editName"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/purple_500"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="#7036D6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtOstos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OstoksenNimi"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/txtMuisti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Muistiinpanot"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

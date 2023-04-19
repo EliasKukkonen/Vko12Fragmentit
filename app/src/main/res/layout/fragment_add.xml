@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentAdd">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:text="@string/hello_blank_fragment" />
+
+    <EditText
+        android:id="@+id/editTextLisaaMuistiin"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MuistiinPanot" />
+
+    <EditText
+        android:id="@+id/editTextLisaaOstos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_margin="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Tuote" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:onClick="addProduct"
+        android:text="Lisää Tuote" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="150dp"
+        android:text="SuperTärkeä" />
+
+</FrameLayout>
